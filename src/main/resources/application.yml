@@ -33,11 +33,12 @@ logging:
 server:
   port: 8080
   maxHttpHeaderSize: 10485760
+  servlet:
+    context-path: /api
 
 jwt:
   secretkey: mV0JdNgw4tNtQvvEwapWZWRbsvS5b4r7g46C
   # 24 hours
-  validtiy:
-    ms: 86400000
+  validtiy: 24h
 
 
