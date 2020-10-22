@@ -9,6 +9,7 @@
   - mybatis文件放置在源代码目录，按照模块打包controller、pojo、mybatis mapper文件。
   - 使用IDEA提供的HTTP Request功能进行接口测试，测试脚本放在test目录。
 * tools-table2word-mysql - 生成指定mysql数据库中所有表、视图的结构信息，并通过Apache POI的API以表格的形式写入到Word文件
+* tools-preview-jodconverter - 基于jodconverter和libreoffice的在线预览、各种文档转换的示例工程
 
 # 示例项目部署方法
 * 主目录创建config、logs两个文件夹
