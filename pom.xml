@@ -13,5 +13,7 @@
         <module>spring-mybatis-example</module>
         <module>spring-jwt-example</module>
         <module>tools-table2word-mysql</module>
+        <module>tools-preview-jodconverter</module>
+        <module>java-thread-example</module>
     </modules>
 </project>

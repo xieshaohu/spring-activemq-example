@@ -1,0 +1,33 @@
+server:
+  port: 10000
+  
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 10MB
+  application:
+    name: JODConverter Sample Rest Api
+
+jodconverter:
+  local:
+    enabled: true
+    port-numbers: 2002,2003
+    format-options:
+      html:
+        store:
+          TEXT:
+            FilterOptions: EmbedImages
+
+      xhtml:
+        store:
+          TEXT:
+            FilterOptions: EmbedImages
+
+browser:
+  type: inline  # inline 浏览器打开；attachment 浏览器提示下载
+
+logging:
+  level:
+    org.jodconverter: debug
+    examples: debug
